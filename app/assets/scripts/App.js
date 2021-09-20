@@ -1,2 +1,5 @@
 import '../styles/styles.css';
-alert('Happy Sundae');
+
+if (module.hot) {
+  module.hot.accept();
+}
